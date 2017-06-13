@@ -1,0 +1,22 @@
+{
+  "name": "dashboardcombu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.3",
+    "express-load": "^1.1.16",
+    "express-validator": "^3.2.0",
+    "html": "^1.0.0",
+    "mysql": "^2.13.0",
+    "swig": "^1.4.2"
+  }
+}
