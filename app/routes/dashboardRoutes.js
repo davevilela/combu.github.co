@@ -32,6 +32,10 @@ module.exports = function(app){
         })
         .post(api.insert);
 
+    app.get('/', function(req, res){
+        
+        res.redirect('/main');
+    });
     
 };
 
