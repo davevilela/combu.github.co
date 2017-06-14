@@ -21,7 +21,7 @@ module.exports = function(app){
     app.route('/dashboard')
         .get(function(req, res){
             
-            var results = api.listAll;
+           res.render('dashboard');
     })
         .post(api.insert);
     
